@@ -98,7 +98,6 @@ function handleClick(btnPressed) {
 }
 
 function endGameScreen() {
-    console.log("HI");
     endgameScreen.classList.add('active');
     if(player > computer) {
         endgameMessage.textContent = "Congrats You Beat the Computer";
